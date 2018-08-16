@@ -5,6 +5,7 @@ double* lbfgs(double *initial){
 
 
   // Copy the initial input, x_0, if needed by user later, to current x_i
+
   
   double* current = (double*)malloc(size * sizeof(double));
   int i,j;

@@ -12,6 +12,7 @@ void wolfeLineSearch(double* current,double* direction,double* gradient,double* 
   double fU0 = myFunction(current);
   double fullstep = 1;
   int i;
+
     
   double left = 0, mid = fullstep, right = fullstep;
   
